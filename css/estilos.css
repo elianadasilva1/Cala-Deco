@@ -87,23 +87,13 @@ header nav ul li a:hover {
 }
 
 .item-2 {
-    background-image: url(/img/fondo-flores2.jpg);
-    background-size: cover;
-    position: relative;
     display: flex;
     align-items: center;
+    font-weight: bolder;
+    text-align: center;
     justify-content: center;
     height: 200px;
-}
-
-.texto-item-2 {
     color: #192b21;
-    font-weight: bolder;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
 .item-4 {
@@ -246,6 +236,14 @@ main section iframe {
 }
 .secciones2 {
     flex-direction: column;
+}
+
+.item-2{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    font-size: 1rem;
+
 }
 
 /*page Contacto*/
