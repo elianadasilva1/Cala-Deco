@@ -1,0 +1,26 @@
+
+/*VARIABLES*/
+$color-principal:#335742;
+$color-secundario: #264131;
+$color-terciario: #589873;
+
+/*EXTENDS*/
+%tarjeta-extend{
+    background-color: #589873;
+    border:solid;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    @extend %tarjeta-extend;
+}
+
+/*MIXIN*/
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+

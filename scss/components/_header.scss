@@ -1,0 +1,55 @@
+/*HERO PAGE/HEADER*/
+header{
+    background-color: #7dcea0;
+    color: #DAF7A6;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    nav{
+        div{
+            a{
+            text-decoration: none;
+            color: #335742;
+            padding: 25px 60px;
+            margin: 5px 10px;
+            transition: 2s; 
+            &:hover{
+            background-color: #4c8362;
+            color: #d4efdf;
+            transform: scale(1.2)
+            }
+                h1{
+                color: #264131;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin: 10px;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 800;
+                display: flex;
+                justify-content: center;
+                }
+                h2{
+                color: #264131;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin: 10px;
+                font-size: 40px;
+                }
+            }
+
+.marcaylogo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.logo{
+    width: 20%;
+    height: auto;
+    margin-top: 5px;
+}
+
+        .dropdown-menu{
+            background-color: #4c8362;
+                }
+            }
+        }
+    }

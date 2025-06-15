@@ -1,0 +1,26 @@
+/*footer*/
+footer {
+    background-color: #7dcea0;
+    p{
+    display: flex;
+    justify-content: center;
+    }
+    .footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: #264131;
+    font-size: 30px;
+    }
+        a{
+            i{font-size: 40px;
+            color: #264131;
+            transition: 1s;
+            display: inline-block;
+            &:hover {
+            color: #4c8362;
+            transform: scale(1.2)
+            }
+            }
+        }
+    }
+

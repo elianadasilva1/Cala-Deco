@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-coder-dasilva",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianadasilva1/Cala-Deco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianadasilva1/Cala-Deco/issues"
+  },
+  "homepage": "https://github.com/elianadasilva1/Cala-Deco#readme",
+  "description": ""
+}
