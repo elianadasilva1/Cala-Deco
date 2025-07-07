@@ -1,106 +1,127 @@
-/************************************
-/*DISEÑO RESPONSIVE
-/*MEDIA QUERY PARA TABLETAS Y TÉLEFONOS*/
-/*index*/
-@media screen and (max-width: 767px) {
-main{
-    section{
-        div{
-            width: 100%;
-            .grid-inicio {
-                width: 100%;
-                margin: 0;             
-                grid-template-columns: 1fr 1fr;
-                grid-auto-rows: 200px;
-                display: grid;
-                gap: 5px;
-            }
+/*****
+mediaquerys
 
-            *:nth-child(n + 3){
-                display: none;
-            } 
-           
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                display: block;
-                }
-            }
-            }
-      } 
+*/
+@media (max-width: 700px) {
+  .grid-inicio {
+    display: none !important;
+  }
 
+  .mensaje-mobile {
+    display: block;
+    background-color: #3f6d52;
+    padding: 2rem 1rem;
+    text-align: center;
 
-    .navbar-brand{ 
-        h1 {
-        font-size: 1rem;
-            }
-
-        img {
-        width: 60px;
-        height: auto;
-        }
+    p {
+      color: #ffffff;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      max-width: 90%;
+      margin: 0 auto;
     }
-    .navbar-toggler {
-    margin-left: auto;
-    }
+  }
+}
+
+  .secciones2 {
+    grid-template-columns: 1fr;
+  }
+
+  .tarjeta {
+    max-width: 300px;
+    margin-inline: auto;
+  }
+
+  .estilo-form .form {
+    grid-template-columns: 1fr;
+  }
+
+  .ropadecama-container {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-item img {
+    max-height: 260px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
 
-    .secciones2 {
-        flex-direction: column;
-    }
 
+@media (max-width: 576px) {
+  .navbar-brand h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    transform: none !important;
+    transition: none !important;
+  }
 
-
-    .item-2 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        font-size: 1rem;
-    }
-
-    .tarjeta {
-        width: 250px;
-        height: 250px;
-        padding: 10px;
-        margin: 20px;
-        display: flex;
-        flex-direction: column;
-        }
-    
-    .ropadecama-container{
+    nav {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
-    }
+    padding: 1rem;
+    background-color: #335742;
     
-        
-    /*page Contacto*/
-    .form {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 4fr;
+    img {
+      width: 100px;
+      height: auto;
     }
 
-    .estilo-form form label:nth-of-type(even) {
-        all: unset;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center;
+
+      li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+    }
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #3f6d52;
+    color: #fff;
+    text-align: center;
+
+    .footer-icons {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1.5rem;
+
+      i {
+        font-size: 1.5rem;
+        color: #fff;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.2);
+          color: #7dcea0;
+        }
+      }
     }
 
-    /*index*/
-    @media screen and (max-width: 435px) {
-    header{
-        h1 {
-            font-size: 25px;
-        }
+    p {
+      margin-top: 1rem;
+      font-size: 0.9rem;
     }
-    main{
-        h2 {
-            font-size: 20px;
-        }     
-    }
-        .fotoproductos {
-            margin: 5px;
-            padding: 5px;
-        }
-}
+  }
+
 }
